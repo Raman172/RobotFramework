@@ -36,7 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with Robot Framework
       run: |
-        robot tests/.
+        robot .
     - name: Upload test reports
       uses: actions/upload-artifact@v2
       continue-on-error: true
