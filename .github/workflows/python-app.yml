@@ -45,3 +45,4 @@ jobs:
         path: |
           output.xml
           report.html
+          log.html
